@@ -9,11 +9,11 @@
   <link href="/assets/css/stickyfooter.css" rel="stylesheet">
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+   <!---- <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/"> -->
 
     <!-- Bootstrap core CSS -->
 <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
- 
+  
  <style>
  .bd-placeholder-img {
         font-size: 1.125rem;
@@ -34,7 +34,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
+ 
   padding-bottom: 3rem;
   color: #5a5a5a;
 }
@@ -64,7 +64,7 @@ body {
   min-width: 100%;
   height: 32rem;
 }
-
+ 
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -129,10 +129,11 @@ body {
         aria-controls="collapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="collapse">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -154,31 +155,40 @@ body {
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%"  src="/assets/images/codingbg7.jpg" 
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+        <!--<rect width="100%" height="100%" fill="#777"/>-->
+      </img>
         <div class="container">
-          <div class="carousel-caption text-left">
-            <h1>Nicholas P. Golden</h1>
-            <p>I do this and that.</p>
+          <div class="carousel-caption text-left" >
+                <h1 >Nicholas P. Golden</h1>
+                <p>Certified Full Stack Developer</p>
             <p><a class="btn btn-lg btn-primary" href="/contact.html" role="button">Contact Me</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="/assets/images/codingbg4.jpg" 
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+       <!-- <rect width="100%" height="100%" fill="#777"/>-->
+      </img>
         <div class="container">
           <div class="carousel-caption">
-            <h1>Perfect Fit For Your Company!</h1>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                  <h1>Perfect Fit For Your Company!</h1>
+                  <p> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             <p><a class="btn btn-lg btn-primary" href="#" role="button">View My Resume</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img class="bd-placeholder-img" width="100%" height="100%" src="/assets/images/codingbg3.jpg"  
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+        <!--<rect width="100%" height="100%" fill="#777"/>-->
+      </img>
         <div class="container">
           <div class="carousel-caption text-right">
-            <h1>Languages I Love</h1>
-            <p>Node.JS, JavaScript, HTML, CSS, React, That one Language, and MORE</p>
+            <h1>Profecient Programming Languages </h1>
+            <p> Node.JS, JavaScript, HTML, CSS, React, SQL, and MORE</p>
             <p><a class="btn btn-lg btn-primary" href="/portfolio.html" role="button">View Projects In My Portfolio</a></p>
           </div>
         </div>
@@ -194,53 +204,28 @@ body {
     </a>
   </div>
 
-
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Crystal Collector</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="https://npg311.github.io/Crystal-Collector/" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>GifTastic</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="https://npg311.github.io/giphy-hw-week6" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Sip & Share</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="https://npg311.github.io/Skinny-Thumbs" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Bamazon!</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="https://github.com/npg311/bamazon" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
     <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Who Is Nick Golden? <span class="text-muted">He will blow your mind.</span></h2>
+        <p class="lead">He is an extrodinary goal driven family man who wants to leave the service industry to use his 
+           intelligence to make a living. 
+        </p>
+        <p class="lead">
+            So he signed up for Coding Bootcamp doing Full Stack Development at University of Kansas! 
+            Rock Chalk Jayhawks!
+        </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+        width="500" height="500" src="/assets/images/Nick-img1.jpg" preserveAspectRatio="xMidYMid slice" 
+        focusable="false" role="img">
+      </img>
       </div>
     </div>
 
@@ -249,10 +234,18 @@ body {
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">His true love for programming started when his nerdy girlfriend would come home from her Full Stack Web Development
+          job and it sounded like she was speaking a foreign language. A foreign language he wanted to learn!
+          As he made progress throughout his certification he now comes home speaking the same language.
+          He discovered that his favorite type of programming is the back end development. Thats right, he loves 
+          server maintainence, database management, and creating API's. 
+        </p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+        width="500" height="500"  src="/assets/images/Nick-img2.jpg" preserveAspectRatio="xMidYMid slice" 
+        focusable="false" role="img" >      
+      </img>
       </div>
     </div>
 
@@ -261,70 +254,61 @@ body {
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <p class="lead">Nick has two super awesome kids, two cute dogs, and so many goals!!!
+          He's certified and ready to get in the development world! </p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" 
+        width="500" height="500" src="/assets/images/Nick-img4.jpg" preserveAspectRatio="xMidYMid slice" 
+        focusable="false" role="img" >
+      </img>
       </div>
     </div>
-
-    <hr class="featurette-divider">
+    <hr>
+    <h1 align='center'>A Few Projects </h1>
+  
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/images/codingbg5.jpg"
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" >
+      </img>
+      <br />
+        <h2>Crystal Collector</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="https://npg311.github.io/unit-4-game" role="button">
+          View  &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/images/codingbg1.jpg"
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" >
+      </img>
+      <br />
+        <h2>GifTastic</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="https://npg311.github.io/giphy-hw-week6" role="button">View  &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="/assets/images/codingbg2.jpg"
+        preserveAspectRatio="xMidYMid slice" focusable="false" role="img" >
+      </img>
+      <br />
+        <h2>Sip & Share</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="https://npg311.github.io/Skinny-Thumbs" role="button">View  &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
 
     <!-- /END THE FEATURETTES -->
 
   </div><!-- /.container -->
-
-<!--  <main role="main" class="container">
-    <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <br/>
-            <br>
-            <div class="page-header">
-              <h1>About Me</h1>
-            </div>
-            <div class="row">
-              <div class="col-md-3">
-                <img src="/ohm.png" alt="My Profile Pic" class="img-thumbnail">
-              </div>
-              <div class="col-md-9">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
-                  nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
-                  felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
-                  non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
-                  luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
-                  neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
-                  dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
-                  posuere sem congue a.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <br/>
-            <br>
-              <div class="card mt-2">
-                <div class="card-body">
-                  <h5 class="card-title">Activities</h5>
-                  <h6 class="card-subtitle mb-2 text-muted">homework projects</h6>
-                  <p class="card-text"><a href="https://npg311.github.io/unit-4-game">Crystal collector game</a></p>
-                  <p class="card-text"><a href="https://npg311.github.io/giphy-hw-week6">GifTastic!!</a></p>
-                  <p class="card-text"><a href="https://npg311.github.io/Skinny-Thumbs">Project 1 (Sip n' Share)</a></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main> -->
-
 
       <footer class="footer">
         <div class="container">
           <span class="text-muted">&copy; Nicholas Golden</span>
         </div>
       </footer>
-    </body>  
+    </body> 
+     
   </html>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
